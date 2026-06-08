@@ -106,33 +106,33 @@ media/       -> uploaded files
 
 # 🔐 Authentication
 
-* JWT Access Tokens
-* Refresh Tokens
-* Refresh Token Rotation
-* Password hashing
-* Protected routes
+ * JWT Access Tokens
+ * Refresh Tokens
+ * Refresh Token Rotation
+ * Password hashing
+ * Protected routes
 
 
 
 # 🔥 Main Functionalities
 
-* REST API
-* Dockerized infrastructure
-* Telegram bot integration
-* Product image uploads
-* Pagination
-* Admin dashboard
-* Order lifecycle management
-* Redis caching
+ * REST API
+ * Dockerized infrastructure
+ * Telegram bot integration
+ * Product image uploads
+ * Pagination
+ * Admin dashboard
+ * Order lifecycle management
+ * Redis caching
 
 
 
 ## Create `.env`
 
-  DATABASE_URL=postgresql+asyncpg://postgres:postgres@db:5432/shop
-  JWT_SECRET=supersecret
-  REDIS_URL=redis://redis:6379/0
-  BOT_TOKEN=your_bot_token
+ * DATABASE_URL=postgresql+asyncpg://postgres:postgres@db:5432/shop
+ * JWT_SECRET=supersecret
+ * REDIS_URL=redis://redis:6379/0
+ * BOT_TOKEN=your_bot_token
 
 
 
