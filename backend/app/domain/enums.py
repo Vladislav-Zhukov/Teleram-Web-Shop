@@ -1,0 +1,8 @@
+class OrderStatus:
+    NEW = "NEW"
+    PAID = "PAID"
+    SHIPPED = "SHIPPED"
+    DELIVERED = "DELIVERED"
+    CANCELED = "CANCELED"
+
+    ALL = {NEW, PAID, SHIPPED, DELIVERED, CANCELED}

@@ -1,0 +1,16 @@
+:root {
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji",
+    "Segoe UI Emoji";
+}
+body { margin: 0; background: #0b0f17; color: #e6e6e6; }
+a { color: inherit; }
+.container { max-width: 980px; margin: 0 auto; padding: 18px; }
+.card { background: #111827; border: 1px solid #1f2937; border-radius: 12px; padding: 14px; }
+.row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.spacer { flex: 1; }
+.btn { background: #2563eb; border: 0; color: white; padding: 10px 12px; border-radius: 10px; cursor: pointer; }
+.btn.secondary { background: #374151; }
+.input { width: 100%; padding: 10px 12px; border-radius: 10px; border: 1px solid #374151; background: #0b1220; color: #e6e6e6; }
+.muted { color: #9ca3af; }
+.grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+@media (max-width: 720px) { .grid { grid-template-columns: 1fr; } }
