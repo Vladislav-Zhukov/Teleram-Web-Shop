@@ -63,14 +63,7 @@ Full-stack e-commerce platform with Telegram Bot integration built using async P
 
 # 🏗 Architecture
 
-Telegram Bot / React Frontend
-              │
-              ▼
-        FastAPI Backend
-              │
-      ┌───────┴───────┐
-      ▼               ▼
- PostgreSQL        Redis
+Telegram Bot / React Frontend   ->   FastAPI Backend ->   PostgreSQL / Redis
 
 
 
