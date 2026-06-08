@@ -96,11 +96,11 @@ This allows the application to efficiently handle multiple concurrent I/O operat
 
 # 📁 Project Structure
 
-backend/     -> FastAPI backend
-bot/         -> Telegram bot
-web/         -> React frontend
-alembic/     -> database migrations
-media/       -> uploaded files
+* backend/     -> FastAPI backend
+* bot/         -> Telegram bot
+* web/         -> React frontend
+* alembic/     -> database migrations
+* media/       -> uploaded files
 
 
 
